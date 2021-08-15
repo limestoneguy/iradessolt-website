@@ -1,0 +1,13 @@
+.service-card:hover {
+  transform: scale(1.2);
+}
+
+/* .service-card:hover {
+  box-shadow: 2px 5px 8px 0px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 2px 5px 8px 0px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 2px 5px 8px 0px rgba(255, 255, 255, 0.25);
+} */
+
+.service-card:hover > div {
+  opacity: 1;
+}

@@ -1,0 +1,10 @@
+.face-section {
+  background: linear-gradient(62.82deg, #232323 0%, rgba(0, 0, 0, 0) 77.14%),
+    #232323;
+    min-height: calc(100vh - 64px);
+}
+
+.face-poster {
+  min-width: 40%;
+  max-width: 50%;
+}
