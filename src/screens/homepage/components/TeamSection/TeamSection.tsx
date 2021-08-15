@@ -11,9 +11,9 @@ export default function TeamSection() {
                 name: 'Chitransh Srivastava',
                 designation: 'CEO',
                 photoUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-                message: `Aut eos porro ex autem quasi quis obcaecati sunt alias! A, omnis earum.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Similique ex error earum unde, velit architecto illo a odio esse. 
-                    Aut eos porro ex autem quasi quis obcaecati sunt alias! A, omnis earum.`
+                message: `Chitransh is a Serial Entrepreneur, Crypto Millionaire, Motivational Speaker and Philanthropist. Having an experience 
+                of serving National and International Government, Private and Defence Institutions from multiple disciplines, he truly loves to tackle new problems, and apply
+                 skills learnt over the years from various fields while absorbing new on the go. He is also a published writer, cook and Adventure seeker`
             },
             {
                 name: 'Rishabh Kanaujia',
@@ -27,8 +27,8 @@ export default function TeamSection() {
                 designation: 'CTO',
                 photoUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
                 message: `Aditya is DB and Backend Developer with unmatched experience in Blockchain. 
-                Having developed not only web services, platforms and crypto, he is always looking for a new problem to solve, a new technology to acquire. Late to bed and Early to Rise,
-                makes a hard working Entrepreneur Successful is his words of wisdom`
+                Having developed not only web services, platforms and crypto, he is always looking for a new problem to solve, a new technology to acquire. "Late to bed and Early to Rise,
+                makes a hard working Entrepreneur Successful" is his words of wisdom`
             }
         ];
 
