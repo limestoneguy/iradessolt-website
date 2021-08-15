@@ -29,7 +29,7 @@ export default function ClientsSection() {
         <section className="min-h-screen gradient-background py-16">
             <div className="container mx-auto">
                 <h3 className="text-primary text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-16">OUR CLIENTS</h3>
-                <div className="grid gap-2 mt-4">
+                <div className="grid gap-2 gap-y-6 mt-4">
                     {clientsDom}
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import { ServiceList } from '../../../../shared/ServiceList'
-import { useEffect } from 'react'
 import './ServiceWeProvide.css'
 import WebsiteIcon from '../../../../assets/icons/png/website.png'
 import MobileIcon from '../../../../assets/icons/png/mobile.png'
@@ -51,7 +50,7 @@ export default function ServiceWeProvide() {
         }
         return (
             <div key={value.value} className='grid place-items-center transition-all cursor-pointer service-card p-3' onClick={() => onServiceClicked(value.value)}>
-                <div className="h-20 w-20 opacity-60 transition">
+                <div className="h-16 w-16 md:h-20 md:w-20 opacity-60 transition">
                     <img src={icon} alt="Website" className='w-full h-full' />
                 </div>
                 <p className="text-white font-bold text-2xl mt-6">{value.label}</p>
@@ -63,7 +62,7 @@ export default function ServiceWeProvide() {
     return (
         <section className="bg-secondary py-16">
             <h3 className="text-primary text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-16">SERVICES WE PROVIDE</h3>
-            <div className="container mx-auto grid grid-cols-1 place-items-center sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8">
+            <div className="container mx-auto grid grid-cols-1 place-items-center sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6 md:gap-y-8">
                 {serviceList}
             </div>
         </section>

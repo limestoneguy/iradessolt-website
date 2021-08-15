@@ -1,10 +1,54 @@
 .face-section {
   background: linear-gradient(62.82deg, #232323 0%, rgba(0, 0, 0, 0) 77.14%),
     #232323;
-    min-height: calc(100vh - 64px);
+  min-height: calc(100vh - 64px);
 }
 
 .face-poster {
   min-width: 40%;
   max-width: 50%;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid white;
+  animation: scaleAnimation 1000ms 200ms;
+}
+
+.content > h1,
+.content > div {
+  animation: clipPath 2.2s ease-in forwards;
+}
+
+@keyframes scaleAnimation {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes clipPath {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  50% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
