@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iradessolt-website/static/css/main.879dbc6b.chunk.css",
-    "main.js": "/iradessolt-website/static/js/main.1d86c8a8.chunk.js",
-    "main.js.map": "/iradessolt-website/static/js/main.1d86c8a8.chunk.js.map",
+    "main.js": "/iradessolt-website/static/js/main.e2e2e82c.chunk.js",
+    "main.js.map": "/iradessolt-website/static/js/main.e2e2e82c.chunk.js.map",
     "runtime-main.js": "/iradessolt-website/static/js/runtime-main.b3c3378b.js",
     "runtime-main.js.map": "/iradessolt-website/static/js/runtime-main.b3c3378b.js.map",
     "static/css/2.e1a3adde.chunk.css": "/iradessolt-website/static/css/2.e1a3adde.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.e1a3adde.chunk.css",
     "static/js/2.c50ff377.chunk.js",
     "static/css/main.879dbc6b.chunk.css",
-    "static/js/main.1d86c8a8.chunk.js"
+    "static/js/main.e2e2e82c.chunk.js"
   ]
 }
