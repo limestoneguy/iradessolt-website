@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/iradessolt-website/static/css/main.879dbc6b.chunk.css",
-    "main.js": "/iradessolt-website/static/js/main.e2e2e82c.chunk.js",
-    "main.js.map": "/iradessolt-website/static/js/main.e2e2e82c.chunk.js.map",
+    "main.css": "/iradessolt-website/static/css/main.661c3e33.chunk.css",
+    "main.js": "/iradessolt-website/static/js/main.08574666.chunk.js",
+    "main.js.map": "/iradessolt-website/static/js/main.08574666.chunk.js.map",
     "runtime-main.js": "/iradessolt-website/static/js/runtime-main.b3c3378b.js",
     "runtime-main.js.map": "/iradessolt-website/static/js/runtime-main.b3c3378b.js.map",
     "static/css/2.e1a3adde.chunk.css": "/iradessolt-website/static/css/2.e1a3adde.chunk.css",
-    "static/js/2.c50ff377.chunk.js": "/iradessolt-website/static/js/2.c50ff377.chunk.js",
-    "static/js/2.c50ff377.chunk.js.map": "/iradessolt-website/static/js/2.c50ff377.chunk.js.map",
+    "static/js/2.0fa3642b.chunk.js": "/iradessolt-website/static/js/2.0fa3642b.chunk.js",
+    "static/js/2.0fa3642b.chunk.js.map": "/iradessolt-website/static/js/2.0fa3642b.chunk.js.map",
     "static/js/3.86b51375.chunk.js": "/iradessolt-website/static/js/3.86b51375.chunk.js",
     "static/js/3.86b51375.chunk.js.map": "/iradessolt-website/static/js/3.86b51375.chunk.js.map",
     "index.html": "/iradessolt-website/index.html",
     "static/css/2.e1a3adde.chunk.css.map": "/iradessolt-website/static/css/2.e1a3adde.chunk.css.map",
-    "static/css/main.879dbc6b.chunk.css.map": "/iradessolt-website/static/css/main.879dbc6b.chunk.css.map",
-    "static/js/2.c50ff377.chunk.js.LICENSE.txt": "/iradessolt-website/static/js/2.c50ff377.chunk.js.LICENSE.txt",
+    "static/css/main.661c3e33.chunk.css.map": "/iradessolt-website/static/css/main.661c3e33.chunk.css.map",
+    "static/js/2.0fa3642b.chunk.js.LICENSE.txt": "/iradessolt-website/static/js/2.0fa3642b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/iradessolt-website/static/media/Nunito-Regular.09b2f37e.ttf",
     "static/media/blockchain.adcfc4ca.png": "/iradessolt-website/static/media/blockchain.adcfc4ca.png",
     "static/media/consultancy.ec47545a.png": "/iradessolt-website/static/media/consultancy.ec47545a.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.b3c3378b.js",
     "static/css/2.e1a3adde.chunk.css",
-    "static/js/2.c50ff377.chunk.js",
-    "static/css/main.879dbc6b.chunk.css",
-    "static/js/main.e2e2e82c.chunk.js"
+    "static/js/2.0fa3642b.chunk.js",
+    "static/css/main.661c3e33.chunk.css",
+    "static/js/main.08574666.chunk.js"
   ]
 }
