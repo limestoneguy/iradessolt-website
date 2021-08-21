@@ -1,40 +1,44 @@
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Suspense, useEffect, useRef } from 'react';
+import { Suspense, useRef } from 'react';
 import './Sphere3D.css';
 import { BufferAttribute, BufferGeometry, TextureLoader } from 'three';
+import { CustomOrbitControls } from './controls/OrbitControls';
 
+let mouseX: number;
+let mouseY: number;
 
-
+document.addEventListener('mousemove', (event) => {
+    mouseX = event.clientX || 0;
+    mouseY = event.clientY || 0;
+});
 
 function Box() {
     const mesh: any = useRef();
     useFrame(() => {
-        mesh.current.rotation.y += 0.01;
-        mesh.current.rotation.x += 0.005;
+        mesh.current.rotation.y += 0.007;
+        mesh.current.rotation.x += 0.002;
     });
+
+    const loader = new TextureLoader();
+    const star = loader.load(process.env.PUBLIC_URL + '/star.png');
 
     return (
         <points ref={mesh} scale={1}>
             <sphereBufferGeometry attach='geometry' args={[2.5, 32, 32]} />
-            <pointsMaterial transparent={true} size={0.02} attach='material' color='#ffffff' />
+            <pointsMaterial transparent={true} map={star} size={0.02} attach='material' color='#ffffff' />
         </points>
     );
 }
 
 function Background_1() {
     const mesh: any = useRef();
-    let mouseX = 0;
-    let mouseY = 0;
-
     useFrame(() => {
         mesh.current.rotation.y += ((0.02 / 10) - (mouseY / 100000));
         mesh.current.rotation.x -= ((0.005 / 10) * (mouseX / 1000000));
     });
 
-    document.addEventListener('mousemove', animateParticles);
-
     const loader = new TextureLoader();
-    const star = loader.load('./1.png')
+    const star = loader.load(process.env.PUBLIC_URL + '/1.png');
 
     const particleGeometry = new BufferGeometry();
     let particlesCount = 1000;
@@ -42,11 +46,6 @@ function Background_1() {
 
     for (let i = 0; i < particlesCount * 3; i++) {
         posArr[i] = (Math.random() - 0.5) * 12;
-    }
-
-    function animateParticles(event: any) {
-        mouseX = event.clientX || 0;
-        mouseY = event.clientY || 0;
     }
 
     particleGeometry.setAttribute('position', new BufferAttribute(posArr, 3));
@@ -60,18 +59,14 @@ function Background_1() {
 }
 function Background_0() {
     const mesh: any = useRef();
-    let mouseX = 0;
-    let mouseY = 0;
 
     useFrame(() => {
         mesh.current.rotation.y += ((0.02 / 10) - (mouseY / 100000));
         mesh.current.rotation.x -= ((0.005 / 10) * (mouseX / 1000000));
     });
 
-    document.addEventListener('mousemove', animateParticles);
-
     const loader = new TextureLoader();
-    const star = loader.load('./0.png')
+    const star = loader.load(process.env.PUBLIC_URL + '/0.png');
 
     const particleGeometry = new BufferGeometry();
     let particlesCount = 1000;
@@ -79,11 +74,6 @@ function Background_0() {
 
     for (let i = 0; i < particlesCount * 3; i++) {
         posArr[i] = (Math.random() - 0.5) * 12;
-    }
-
-    function animateParticles(event: any) {
-        mouseX = event.clientX || 0;
-        mouseY = event.clientY || 0;
     }
 
     particleGeometry.setAttribute('position', new BufferAttribute(posArr, 3));
@@ -99,12 +89,12 @@ function Background_0() {
 export default function Sphere3D() {
     return (
         <Canvas>
-            <pointLight position={[30, 30, 30]} color='#00e676' />
-            <Suspense fallback={null}>
+            {/* <Suspense fallback={null}> */}
+                <Box />
                 <Background_1 />
                 <Background_0 />
-                <Box />
-            </Suspense>
+            {/* </Suspense> */}
+            <CustomOrbitControls />
         </Canvas>
     );
 }

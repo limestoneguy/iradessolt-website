@@ -60,7 +60,7 @@ export default function ServiceWeProvide() {
 
 
     return (
-        <section className="bg-secondary py-16">
+        <section className="bg-secondary py-16" id='service'>
             <h3 className="text-primary text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-16">SERVICES WE PROVIDE</h3>
             <div className="container mx-auto grid grid-cols-1 place-items-center sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6 md:gap-y-8">
                 {serviceList}
