@@ -15,13 +15,13 @@ export default function TeamSection() {
                 of serving National and International Government, Private and Defence Institutions from multiple disciplines, he truly loves to tackle new problems, and apply
                  skills learnt over the years from various fields while absorbing new on the go. He is also a published writer, cook and Adventure seeker.`
             },
-            {
-                name: 'Rishabh Kanaujia',
-                designation: 'CTO',
-                photoUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
-                message: `Rishabh is a Full Stack Developer with over half a decade of experience in the field. Having worked with international designers and world renowned clients, his performance and work are 
-                always miles ahead of expectations. Caffeine and Crypto are the two love of his life.`
-            },
+            // {
+            //     name: 'Rishabh Kanaujia',
+            //     designation: 'CTO',
+            //     photoUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+            //     message: `Rishabh is a Full Stack Developer with over half a decade of experience in the field. Having worked with international designers and world renowned clients, his performance and work are 
+            //     always miles ahead of expectations. Caffeine and Crypto are the two love of his life.`
+            // },
             {
                 name: 'Aditya Srivastava',
                 designation: 'CTO',

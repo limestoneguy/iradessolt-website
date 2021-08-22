@@ -75,7 +75,7 @@ export default function ClientsSection() {
                 <div className="image-container">
                     <img className='w-full h-full' src={value.photo} alt="" />
                 </div>
-                <p className="text-3xl md:text-xl bottom-0 text-center w-full text-white mt-2 font-bold">{value.name}</p>
+                <p className="text-lg md:text-xl bottom-0 text-center w-full text-white mt-2 font-bold">{value.name}</p>
             </div>
         );
     });
@@ -83,7 +83,7 @@ export default function ClientsSection() {
         <section className="gradient-background py-16" id='client'>
             <div className="container mx-auto">
                 <h3 className="text-primary text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-16">OUR CLIENTS</h3>
-                <div className="mx-4 grid sm:grid-cols-2 md:grid-cols-4 gap-6 mt-4">
+                <div className="mx-4 grid grid-cols-2 md:grid-cols-4 gap-6 mt-4">
                     {clientsDom}
                 </div>
             </div>
